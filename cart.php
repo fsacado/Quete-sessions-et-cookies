@@ -5,19 +5,19 @@
 
         $contenu = false;
 
-        if ($_COOKIE['cookie1']) {
+        if (!empty($_COOKIE['cookie1'])) {
             echo $_COOKIE['cookie1'] . '<br/>';
             $contenu = true;
         }
-        if ($_COOKIE['cookie2']) {
+        if (!empty($_COOKIE['cookie2'])) {
             echo $_COOKIE['cookie2'] . '<br/>';
             $contenu = true;
         }
-        if ($_COOKIE['cookie3']) {
+        if (!empty($_COOKIE['cookie3'])) {
             echo $_COOKIE['cookie3'] . '<br/>';
             $contenu = true;
         }
-        if ($_COOKIE['cookie4']) {
+        if (!empty($_COOKIE['cookie4'])) {
             echo $_COOKIE['cookie4'] . '<br/>';
             $contenu = true;
         }
