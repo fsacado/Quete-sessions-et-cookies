@@ -2,17 +2,21 @@
 
 require 'inc/head.php';
 
-if ($_POST['PecanNuts']) {
-    setcookie('cookie1', $_POST['PecanNuts'], time() + 86400);
-}
-if ($_POST['ChocolateChips']) {
-    setcookie('cookie2', $_POST['ChocolateChips'], time() + 86400);
-}
-if ($_POST['ChocolateCookie']) {
-    setcookie('cookie3', $_POST['ChocolateCookie'], time() + 86400);
-}
-if ($_POST['MMCookies']) {
-    setcookie('cookie4', $_POST['MMCookies'], time() + 86400);
+if ($_POST) {
+
+    if ($_POST['PecanNuts']) {
+        setcookie('cookie1', $_POST['PecanNuts'], time() + 86400);
+    }
+    if ($_POST['ChocolateChips']) {
+        setcookie('cookie2', $_POST['ChocolateChips'], time() + 86400);
+    }
+    if ($_POST['ChocolateCookie']) {
+        setcookie('cookie3', $_POST['ChocolateCookie'], time() + 86400);
+    }
+    if ($_POST['MMCookies']) {
+        setcookie('cookie4', $_POST['MMCookies'], time() + 86400);
+    }
+    
 }
 
 ?>
