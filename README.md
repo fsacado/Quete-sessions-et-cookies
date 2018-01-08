@@ -1,4 +1,8 @@
-sélectionnés# Template pour : Quetes  PHP Cookies & Sessions
+Quête à réaliser sur la plateforme de la Wild Code School.
+
+Consigne :
+
+Template pour : Quetes  PHP Cookies & Sessions
 
 Ce Template html va te permettre de réaliser ta quête sur la gestion des cookies et des sessions avec PHP.
 
